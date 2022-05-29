@@ -1,0 +1,20 @@
+{
+  "name": "cpsg-66-respon",
+  "version": "1.0.0",
+  "description": "Ini buat template konfigurasi bootstrap via npm\r tinggal lanjutin sesuai page yang kalian kerjakan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchmadZahrulAZ/CPSG-66-RESPON.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/issues"
+  },
+  "homepage": "https://github.com/AchmadZahrulAZ/CPSG-66-RESPON#readme"
+}

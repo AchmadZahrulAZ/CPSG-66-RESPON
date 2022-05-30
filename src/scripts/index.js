@@ -7,11 +7,4 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css';
 import '../styles/responsive.css';
 //  load (ketika halaman dimuat)
-window.addEventListener('load', () => {
-  let el = document.getElementById('wrapper');
-  let toggleButton = document.getElementById('menu-toggle');
-
-  toggleButton.onclick = function () {
-    el.classList.toggle('toggled');
-  };
-});
+window.addEventListener('load', () => {});

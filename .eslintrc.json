@@ -11,8 +11,6 @@
   },
   "rules": {
     "prefer-arrow-callback": "off",
-    "no-var": "off",
-    "wrap-iife": "off",
     "prefer-const": "off",
     "func-names": "off",
     "dot-notation": "off",

@@ -1,14 +1,12 @@
-import StaffHome from '../views/pages/staff-home';
-import StaffDataAntrian from '../views/pages/staff-data-antrian';
-import StaffKritikDanSaran from '../views/pages/staff-kritik-dan-saran';
-import StaffInformasiPuskesmas from '../views/pages/staff-informasi-puskesmas';
+import StaffDashboard from '../views/pages/staff-dashboard';
+import StaffDataAntrian from '../views/pages/staff-dataAntrian';
+import StaffPengaturanAkun from '../views/pages/staff-pengaturanAkun';
 
 const routes = {
-  '/': StaffHome,
-  '/staffhome': StaffHome,
-  '/staffdataantrian': StaffDataAntrian,
-  '/staffinformasipuskesmas': StaffInformasiPuskesmas,
-  '/staffkritikdansaran': StaffKritikDanSaran,
+  '/': StaffDashboard,
+  '/staffdashboard': StaffDashboard,
+  '/staffantrian': StaffDataAntrian,
+  '/staffakun': StaffPengaturanAkun,
 };
 
 export default routes;

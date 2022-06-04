@@ -71,3 +71,22 @@
   font-weight: bold;
   border: none;
 }
+
+/*
+  style belum fix
+*/
+.gambar {
+  width: 400px;
+}
+
+.pisah-atas {
+  margin-top: 100px;
+}
+
+.lebar {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

@@ -27,7 +27,14 @@
 
 #wrapper {
   overflow-x: hidden;
-  background-image: linear-gradient(to right, #baf3d7, #c2f5de, #cbf7e4, #d4f8ea, #ddfaef);
+  background-image: linear-gradient(
+    to right,
+    #baf3d7,
+    #c2f5de,
+    #cbf7e4,
+    #d4f8ea,
+    #ddfaef
+  );
 }
 
 #sidebar-wrapper {
@@ -72,21 +79,6 @@
   border: none;
 }
 
-/*
-  style belum fix
-*/
-.gambar {
-  width: 400px;
-}
-
-.pisah-atas {
-  margin-top: 100px;
-}
-
-.lebar {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
+img {
+  height: 75px;
 }

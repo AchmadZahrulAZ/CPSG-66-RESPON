@@ -1,10 +1,10 @@
-const StaffDataAntrian = {
+const StaffFaq = {
   async render() {
     return `
       <div class="p-4 mb-4 bg-light rounded-3">
           <div class="container-fluid py-5 text-center">
-              <h1 class="display-6 fw-bold">Data Antrian</h1>
-              <p class="fs-4">lorem</p>
+              <h1 class="display-6 fw-bold">FAQ</h1>
+              <p class="fs-4">test</p>
           </div>
       </div>
       `;
@@ -15,4 +15,4 @@ const StaffDataAntrian = {
   },
 };
 
-export default StaffDataAntrian;
+export default StaffFaq;

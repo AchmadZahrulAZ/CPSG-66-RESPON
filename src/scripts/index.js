@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Import css
 import '../styles/main.css';
 import '../styles/responsive.css';
-
+// Import components
 import './components/side-bar';
 import './components/main-bar';
 import App from './views/app';
@@ -21,8 +21,8 @@ window.addEventListener('hashchange', () => {
 
 //  load (ketika halaman dimuat)
 window.addEventListener('load', () => {
-  let el = document.getElementById('wrapper');
-  let toggleButton = document.getElementById('menu-toggle');
+  var el = document.getElementById('wrapper');
+  var toggleButton = document.getElementById('menu-toggle');
 
   toggleButton.onclick = function () {
     el.classList.toggle('toggled');

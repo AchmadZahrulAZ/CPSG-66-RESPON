@@ -6,43 +6,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Import css
 import '../styles/main.css';
 import '../styles/responsive.css';
+// Import components
+import './components/side-bar';
+import './components/main-bar';
+import App from './views/app';
+
+const app = new App({
+  content: document.querySelector('#mainContent'),
+});
+
+window.addEventListener('hashchange', () => {
+  app.renderPage();
+});
+
 //  load (ketika halaman dimuat)
-window.addEventListener('load', () => {});
+window.addEventListener('load', () => {
+  var el = document.getElementById('wrapper');
+  var toggleButton = document.getElementById('menu-toggle');
 
-(function () {
-  feather.replace({ 'aria-hidden': 'true' });
+  toggleButton.onclick = function () {
+    el.classList.toggle('toggled');
+  };
 
-  // Graphs
-  let ctx = document.getElementById('myChart');
-  // eslint-disable-next-line no-unused-vars
-  let myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-      datasets: [
-        {
-          data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
-          lineTension: 0,
-          backgroundColor: 'transparent',
-          borderColor: '#007bff',
-          borderWidth: 4,
-          pointBackgroundColor: '#007bff',
-        },
-      ],
-    },
-    options: {
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              beginAtZero: false,
-            },
-          },
-        ],
-      },
-      legend: {
-        display: false,
-      },
-    },
-  });
-})();
+  app.renderPage();
+});

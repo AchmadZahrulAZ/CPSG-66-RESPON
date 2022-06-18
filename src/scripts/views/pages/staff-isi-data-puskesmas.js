@@ -43,19 +43,30 @@ const IsiDataPuskesmas = {
             <div class="mb-3 row">
                 <label for="poliPuskesmas" class="col-sm-2 col-form-label">Poli yang Tersedia</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" id="poliPuskesmas">
-                    <button type="submit" class="btn btn-primary mt-3" id="addPoli">Tambahkan Poli Baru</button>
+                    <div id="poliContainer">
+                        <input type="text" class="form-control mb-3" id="poliPuskesmas">
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-link" id="addPoli">Tambahkan Poli Baru</button>
+                    </div>
+                    
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3" disabled>Submit</button>
-            <a class="btn btn-primary ms-5" href="#/staffhome" role="button">Submit Sementara</a>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary mt-3" disabled>Submit</button>
+            </div>
+            
         </form>
     </div>
         `;
   },
 
   async afterRender() {
-    // const 
+    const poliContainer = document.getElementById('poliContainer');
+    const addPoli = document.getElementById('addPoli');
+    addPoli.addEventListener('click', () => {
+      poliContainer.innerHTML += '<input type="text" class="form-control mb-3" id="poliPuskesmas">';
+    });
   },
 };
 

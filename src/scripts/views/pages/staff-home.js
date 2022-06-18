@@ -9,8 +9,10 @@ const StaffHome = {
             <p class="fs-4">Selamat datang di dashboard staff RESPON(Reservasi Puskesmas Online)</p>
         </div>
     </div>
-    <button id="ya" class="btn btn-primary mt-3">ya</button>
-    <button id="tidak" class="btn btn-danger mt-3">tidak</button>
+    <div class="container d-flex justify-content-center">
+      <button id="ya" class="btn btn-primary mt-3">ya</button>
+      <button id="tidak" class="btn btn-danger mt-3">tidak</button>
+    </div>
     <div id="puskesmas-data" class="contoh"></div>
     `;
   },
@@ -30,9 +32,7 @@ const StaffHome = {
       puskesmasContainer.innerHTML += .... // tampilan belum ada data
     }
     */
-    const puskesmasContainer = document.querySelector('#puskesmas-data');
-    // puskesmasContainer.innerHTML += puskesmasNoData;
-    // puskesmasContainer.innerHTML += puskesmasWithData;
+    const puskesmasContainer = document.querySelector('#puskesmas-data'); 
     const yes = document.querySelector('#ya');
     const no = document.querySelector('#tidak');
     yes.addEventListener('click', () => {

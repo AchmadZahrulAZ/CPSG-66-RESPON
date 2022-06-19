@@ -1,3 +1,3 @@
-# CPSG-66-RESPON
-Repository untuk Capstone Dicoding Kelompok CPSG-66
-hallo gaes
+ganti dulu service_ket di file supabase.js yang ada di folder api/supabase
+GANTI SEPERTI DI BAWAH
+const SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBkdGJ5dGFydnhsZnJrZ21mYXFxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY1NTY1Mzk0NywiZXhwIjoxOTcxMjI5OTQ3fQ.ZmjeYdYvyE5DaYjEoLQRqlDR0FYzijey083cZmMYM7I'

@@ -17,9 +17,12 @@ const About = {
    </div>
      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
        <p>
-         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-         culpa qui officia deserunt mollit anim id est laborum.
+       Pendaftaran secara offline pada sebuah puskesmas dapat menimbulkan beberapa
+       permasalahan jika kita melihat kondisi COVID-19 saat ini yang harus taat protokol
+       kesehatan. Dalam survei yang kami lakukan tercatat 61 dari 77 orang harus menunggu
+       sekitar 10 - 20 menit bahkan 17 diantaranya harus menunggu lebih dari 1 jam. Dari
+       permasalahan yang dipaparkan, kami berinisiatif untuk membuat project ini sebagai
+       solusi penyelesaian masalah tersebut.
        </p>
      </div>
    </div>
@@ -31,40 +34,37 @@ const About = {
 
        <div class="section-title">
          <h2>Team</h2>
-         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
        </div>
 
        <div class="row">
 
-         <div class="col-lg-6">
+         <div class="col-lg-6  mt-4">
            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-             <div class="pic"><img src="" class="img-fluid" alt=""></div>
+             <div class="pic"><img src="./images/team/zahrul2.jpg" class="img-fluid" alt=""></div>
              <div class="member-info">
                <h4>Achmad Zahrul Ali Zadan</h4>
                <span>Back-End Developer</span>
                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                <div class="social">
-                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-                 <a href=""><i class="fa-brands fa-facebook"></i></a>
                  <a href=""><i class="fa-brands fa-instagram"></i></a>
-                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://github.com/AchmadZahrulAZ"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.linkedin.com/in/achmadzahrulalizadan/"><i class="fa-brands fa-linkedin"></i></a>
                </div>
              </div>
            </div>
          </div>
 
-         <div class="col-lg-6 mt-4 mt-lg-0">
+         <div class="col-lg-6 mt-4">
            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-             <div class="pic"><img src="" class="img-fluid" alt=""></div>
+             <div class="pic"><img src="./images/team/ilham2.jpg" class="img-fluid" alt=""></div>
              <div class="member-info">
                <h4>Ilham Oktavian</h4>
                <span>Back-End Developer</span>
                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                <div class="social">
-                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                 <a href=""><i class="fa-brands fa-instagram"></i></a>
-                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://www.instagram.com/oktavianilham/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://github.com/Ilhamokta74"><i class="fa-brands fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/ilham-oktavian-580301222/"><i class="fa-brands fa-linkedin"></i></a>
                </div>
              </div>
            </div>
@@ -72,16 +72,15 @@ const About = {
 
          <div class="col-lg-6 mt-4">
            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-             <div class="pic"><img src="" class="img-fluid" alt=""></div>
+             <div class="pic"><img src="./images/team/bagas2.jpg" class="img-fluid" alt=""></div>
              <div class="member-info">
                <h4>Bagas Kurnia Ramadhan</h4>
                <span>Front-End Developer</span>
                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                <div class="social">
-                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                 <a href=""><i class="fa-brands fa-instagram"></i></a>
-                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="instagram.com/bagaskurniarmdhn"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://github.com/bagaskurniarmdhn"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.linkedin.com/in/bagaskurniaramadhan/"><i class="fa-brands fa-linkedin"></i></a>
                </div>
              </div>
            </div>
@@ -89,16 +88,15 @@ const About = {
 
          <div class="col-lg-6 mt-4">
            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-             <div class="pic"><img src="" class="img-fluid" alt=""></div>
+             <div class="pic"><img src="./images/team/wahyu2.jpg" class="img-fluid" alt=""></div>
              <div class="member-info">
                <h4>Ahmad Wahyu Pratama</h4>
                <span>Front-End Developer</span>
                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                <div class="social">
-                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                 <a href=""><i class="fa-brands fa-instagram"></i></a>
-                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://www.instagram.com/ah.wahyu_/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://github.com/ahmadWahyu7"><i class="fa-brands fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/ahmad-wahyu-pratama-a735a3221/"><i class="fa-brands fa-linkedin"></i></a>
                </div>
              </div>
            </div>

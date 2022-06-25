@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Import css
 import '../styles/main.css';
 import '../styles/responsive.css';
+import '../styles/style.css';
 // Import components
 import './components/side-bar';
 import './components/main-bar';

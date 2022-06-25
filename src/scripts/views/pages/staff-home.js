@@ -13,7 +13,12 @@ const StaffHome = {
       <button id="ya" class="btn btn-primary mt-3">ya</button>
       <button id="tidak" class="btn btn-danger mt-3">tidak</button>
     </div>
-    <div id="puskesmas-data" class="contoh"></div>
+    <div class="p-4 mb-4 bg-light rounded-3">
+        <div class="container-fluid">
+          <div id="puskesmas-data" class="contoh"></div>
+        </div>
+    </div>
+    
     `;
   },
 

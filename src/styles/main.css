@@ -795,3 +795,8 @@ section {
   background: #209dd8;
 }
 
+.box {
+  max-width: 500px;
+  min-height: 44px;
+}
+

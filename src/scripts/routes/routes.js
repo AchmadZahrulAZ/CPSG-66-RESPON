@@ -5,6 +5,8 @@ import Home from '../views/pages/home';
 import Login from '../views/pages/login';
 import Reservation from '../views/pages/reservation';
 import Regis from '../views/pages/regis';
+import Pendaftaran from '../views/pages/pasien-pendaftaran';
+import ListAntrian from '../views/pages/pasien-list-antrian';
 
 const routes = {
   '/': Home,
@@ -15,6 +17,8 @@ const routes = {
   '/login': Login,
   '/regis': Regis,
   '/detail': Detail,
+  '/pendaftaran': Pendaftaran,
+  '/list-antrian': ListAntrian,
 };
 
 export default routes;

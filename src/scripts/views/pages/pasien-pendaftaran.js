@@ -3,11 +3,12 @@ const Pendaftaran = {
     return `
     <div class="container my-5 box">
         <nav class="nav nav-pills nav-justified">
-            <a id="daftar" class="nav-link border border-primary" href="#/pendaftaran">Pendaftaran</a>
-            <a id="list" class="nav-link border border-primary" href="#/list-antrian">List Antrian</a>
+            <a id="daftar" class="nav-link border border-color fw-bold" href="#/pendaftaran">Pendaftaran</a>
+            <a id="list" class="nav-link border border-color fw-bold" href="#/list-antrian">List Antrian</a>
         </nav>
     </div>
-    <div class="container bg-light p-3 my-5 rounded-4">
+    <div class="container shadow bg-light p-3 my-5 rounded-4">
+        <h3 class="text-center mt-3 mb-5">ISI DATA PENDAFTARAN</h3>
         <div class="row">
             <div class="col-sm-6">
                 <form>
@@ -81,7 +82,7 @@ const Pendaftaran = {
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary mt-3 px-5">Daftar</button>
+            <button type="submit" class="btn btn-primary mt-3 px-5 fw-bold">Daftar</button>
         </div>
     </div>
     `;

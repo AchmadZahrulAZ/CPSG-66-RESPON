@@ -800,3 +800,10 @@ section {
   min-height: 44px;
 }
 
+.active {
+  background-color: #1386A7 !important;
+}
+
+.border-color {
+  border-color: #1386A7 !important;
+}

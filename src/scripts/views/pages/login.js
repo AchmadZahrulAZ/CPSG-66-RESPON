@@ -17,7 +17,6 @@ const Login = {
           <div class="info">
             <img src="../images/image5.jpg" class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5"/>
           </div>
-
         </div>
 
         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">

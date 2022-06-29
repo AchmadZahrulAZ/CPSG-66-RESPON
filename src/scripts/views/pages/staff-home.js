@@ -1,5 +1,3 @@
-import { puskesmasNoData, puskesmasWithData } from '../templates/template-creator';
-
 const StaffHome = {
   async render() {
     return `
@@ -8,31 +6,12 @@ const StaffHome = {
             <h1 class="display-6 fw-bold">Halo Achmad Zahrul</h1>
             <p class="fs-4">Selamat datang di dashboard staff RESPON(Reservasi Puskesmas Online)</p>
         </div>
-    </div>
-    <div class="container d-flex justify-content-center">
-      <button id="ya" class="btn btn-primary mt-3">ya</button>
-      <button id="tidak" class="btn btn-danger mt-3">tidak</button>
-    </div>
-    <div class="p-4 mb-4 bg-light rounded-3">
-        <div class="container-fluid">
-          <div id="puskesmas-data" class="contoh"></div>
-        </div>
-    </div>   
+    </div>  
     `;
   },
 
   async afterRender() {
-    const puskesmasContainer = document.querySelector('#puskesmas-data'); 
-    const yes = document.querySelector('#ya');
-    const no = document.querySelector('#tidak');
-    yes.addEventListener('click', () => {
-      puskesmasContainer.innerHTML = '';
-      puskesmasContainer.innerHTML += puskesmasWithData;
-    });
-    no.addEventListener('click', () => {
-      puskesmasContainer.innerHTML = '';
-      puskesmasContainer.innerHTML += puskesmasNoData;
-    });
+    // test
   },
 };
 

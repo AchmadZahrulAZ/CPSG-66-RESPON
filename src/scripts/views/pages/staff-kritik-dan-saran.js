@@ -6,7 +6,6 @@ const StaffKritikDanSaran = {
               <h1 class="display-6 fw-bold">Kritik dan Saran</h1>
               <p class="fs-4">test</p>
           </div>
-          <a href="https://chat.whatsapp.com/IGJpSJZJmMp43H4qLDr8nM"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
       `;
   },

@@ -1,3 +1,4 @@
 # CPSG-66-RESPON
 
-Hasil Testing Merge Branch 301-staff-home & 304-staff-data-antrian
+Ini buat template konfigurasi bootstrap via npm
+tinggal lanjutin sesuai page yang kalian kerjakan

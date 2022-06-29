@@ -4,9 +4,9 @@ import 'regenerator-runtime';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Import css
+import '../styles/style.css';
 import '../styles/main.css';
 import '../styles/responsive.css';
-import '../styles/style.css';
 // Import components
 import './components/side-bar';
 import './components/main-bar';

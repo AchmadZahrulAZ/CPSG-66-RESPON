@@ -17,26 +17,11 @@ const StaffHome = {
         <div class="container-fluid">
           <div id="puskesmas-data" class="contoh"></div>
         </div>
-    </div>
-    
+    </div>   
     `;
   },
 
   async afterRender() {
-    /* 
-    buat variable yang menampung data puskesmas
-    buat percabangan if apakah data tersedia
-    - jika ya maka tampilkan template data puskesmas
-    - jika tidak maka tampilkan template data kosong
-
-    const puskesmasData = await .... //ambil data dari database
-    const puskesmasContainer  = document.querySelector('#puskesmas-data');
-    if (puskesmasData.length > 0 ??) { //kondisi jika data puskesmas ada
-      puskesmasContainer.innerHTML += .... // tampilan yang ada datanya
-    } else {
-      puskesmasContainer.innerHTML += .... // tampilan belum ada data
-    }
-    */
     const puskesmasContainer = document.querySelector('#puskesmas-data'); 
     const yes = document.querySelector('#ya');
     const no = document.querySelector('#tidak');

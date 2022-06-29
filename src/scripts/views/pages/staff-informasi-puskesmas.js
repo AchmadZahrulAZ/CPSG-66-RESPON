@@ -7,6 +7,7 @@ const StaffInformasiPuskesmas = {
               <p class="fs-4">test</p>
           </div>
       </div>
+      <div class="content" id="main-content">
       `;
   },
 

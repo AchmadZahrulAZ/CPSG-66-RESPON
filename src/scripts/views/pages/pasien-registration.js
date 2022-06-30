@@ -1,4 +1,4 @@
-const Pendaftaran = {
+const Registration = {
   async render() {
     return `
     <div class="container my-5 box">
@@ -8,7 +8,7 @@ const Pendaftaran = {
         </nav>
     </div>
     <div class="container shadow bg-light p-3 my-5 rounded-4">
-        <h3 class="text-center mt-3 mb-5">ISI DATA PENDAFTARAN</h3>
+        <h3 class="text-center mt-3 mb-5">ISI DATA PENDAFTARAN</h3> 
         <div class="row">
             <div class="col-sm-6">
                 <form>
@@ -68,14 +68,13 @@ const Pendaftaran = {
                                 <option selected>jadwal puskesmas</option>
                                 <option value="1">09:00 Pagi</option>
                                 <option value="2">13.00 Siang</option>
-                                <option value="3">contoh lain</option>
-                              </select>
+                            </select>
                         </div>
                     </div>
                     <div class="mb-3 row px-4">
-                        <label for="linkMaps" class="col-sm-5 col-form-label">Pilih Lokasi</label>
+                        <label for="date" class="col-sm-5 col-form-label">Pilih Tanggal</label>
                         <div class="col-sm-7">
-                          <input type="text" class="form-control" id="linkMaps">
+                          <input type="date" class="form-control" id="date">
                         </div>
                     </div>
                 </form>
@@ -94,4 +93,4 @@ const Pendaftaran = {
   },
 };
   
-export default Pendaftaran;
+export default Registration;

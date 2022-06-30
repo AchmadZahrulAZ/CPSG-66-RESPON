@@ -1,21 +1,17 @@
-// import RestaurantSource from '../../data/restaurant-source';
-// import { createRestaurantItemTemplate } from '../templates/template-creator';
-
 const Home = {
   async render() {
     return `
     <div class="content" id="main-content">
-    <hero-bar></hero-bar>
-    <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-  
+      <hero-bar></hero-bar>
+      <section id="services" class="services section-bg">
+        <div class="container">
           <div class="section-title">
-            <h2>Services</h2>
+            <h2>Pelayanan</h2>
             <p>RESPON memberikan beberapa pelayanan antara lain :</p>
           </div>
-  
+          
           <div class="row">
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch">
               <div class="icon-box">
                 <div class="icon"><i class="fa-solid fa-book-medical"></i></div>
                 <h4><a href="">Pendaftaran Online</a></h4>
@@ -23,7 +19,7 @@ const Home = {
               </div>
             </div>
   
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div class="icon-box">
                 <div class="icon"><i class="fa-solid fa-list-check"></i></div>
                 <h4><a href="">Antrean Online</a></h4>
@@ -31,7 +27,7 @@ const Home = {
               </div>
             </div>
   
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <div class="icon-box">
                 <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
                 <h4><a href="">Maps Puskesmas</a></h4>
@@ -39,7 +35,7 @@ const Home = {
               </div>
             </div>
   
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <div class="icon-box">
                 <div class="icon"><i class="fa-solid fa-hourglass-start"></i></div>
                 <h4><a href="">Hemat Waktu</a></h4>
@@ -51,8 +47,9 @@ const Home = {
   
         </div>
       </section>
+      
       <section id="how-to" class="how-to section-bg">
-        <div class="container-fluid" data-aos="fade-up">
+        <div class="container-fluid">
   
           <div class="row">
   
@@ -98,21 +95,17 @@ const Home = {
   
             </div>
   
-            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url(/images/image1.jpg);' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("./images/image1.jpg");'>&nbsp;</div>
           </div>
   
         </div>
       </section>
     </div>
-      `;
+    `;
   },
 
   async afterRender() {
-    // const restaurantList = await RestaurantSource.listRestaurant();
-    // const restaurantContainer = document.querySelector('#list-restaurant');
-    // restaurantList.forEach((restaurant) => {
-    //   restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
-    // });
+    // 
   },
 };
 

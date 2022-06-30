@@ -1,24 +1,24 @@
-import About from '../views/pages/about';
-import Contact from '../views/pages/contact';
-import Detail from '../views/pages/detail';
-import Home from '../views/pages/home';
-import Login from '../views/pages/login';
-import Reservation from '../views/pages/reservation';
-import Regis from '../views/pages/regis';
-import Pendaftaran from '../views/pages/pasien-pendaftaran';
-import ListAntrian from '../views/pages/pasien-list-antrian';
+import About from '../views/pages/patient-about';
+import Contact from '../views/pages/patient-contact';
+import Detail from '../views/pages/patient-detail-puskesmas';
+import Home from '../views/pages/patient-home';
+import SignIn from '../views/pages/patient-sign-in';
+import Reservation from '../views/pages/patient-reservation';
+import SignUp from '../views/pages/patient-sign-up';
+import Registration from '../views/pages/pasien-registration';
+import QueueList from '../views/pages/patient-queue-list';
 
 const routes = {
   '/': Home,
-  '/home': Home,
-  '/reservation': Reservation,
-  '/about': About,
-  '/contact': Contact,
-  '/login': Login,
-  '/regis': Regis,
-  '/detail': Detail,
-  '/pendaftaran': Pendaftaran,
-  '/list-antrian': ListAntrian,
+  '/beranda': Home,
+  '/reservasi': Reservation,
+  '/tentang-kami': About,
+  '/kontak': Contact,
+  '/masuk': SignIn,
+  '/daftar': SignUp,
+  '/detail-puskesmas': Detail,
+  '/pendaftaran': Registration,
+  '/list-antrian': QueueList,
 };
 
 export default routes;

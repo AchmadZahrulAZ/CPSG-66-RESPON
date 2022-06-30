@@ -1,0 +1,11 @@
+buat antrian
+https://respon-backend.vercel.app/pasien/list
+
+buat login
+https://respon-backend.vercel.app/pasien/listlogin
+
+buat insert/tambah data
+https://respon-backend.vercel.app/pasien/tambah?tax=${tax}&poli=${poli}&date=${date}&name=${name}&nik=${nik}&address=${address}&handphone=${handphone}
+
+buat delete
+https://respon-backend.vercel.app/pasien/hapus?id=${id}

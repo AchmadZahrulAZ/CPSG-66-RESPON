@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const StaffInformasiPuskesmas = {
   async render() {
     return `
@@ -12,28 +14,8 @@ const StaffInformasiPuskesmas = {
           <th scope="col" class="text-center">Hapus Antrian</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <th scope="row">A001</th>
-          <td>Mark</td>
-          <td>Anak</td>
-          <td>BPJS</td>
-          <td class="d-flex justify-content-center"><button type="button" class="btn btn-danger">Hapus Antrian</button></td>
-        </tr>
-        <tr>
-          <th scope="row">U002</th>
-          <td>Jacob</td>
-          <td>Umum</td>
-          <td>Tunai</td>
-          <td class="d-flex justify-content-center"><button type="button" class="btn btn-danger">Hapus Antrian</button></td>
-        </tr>
-        <tr>
-          <th scope="row">G003</th>
-          <td>Larry</td>
-          <td>Gigi</td>
-          <td>BPJS</td>
-          <td class="d-flex justify-content-center"><button type="button" class="btn btn-danger">Hapus Antrian</button></td>
-        </tr>
+      <tbody id="tes">
+
       </tbody>
     </table>
   </div>
@@ -41,7 +23,26 @@ const StaffInformasiPuskesmas = {
   },
 
   async afterRender() {
-    // test
+    const res = await axios('https://respon-backend.vercel.app/pasien/list')
+    console.log(res.data[0])
+    let datalist = '';
+    res.data.forEach((data) => {
+      datalist += `
+      <tbody>
+        <tr>
+          <th scope="row">${data.id}</th>
+          <td>${data.name}</td>
+          <td>${data.poli}</td>
+          <td>${data.tax}</td>
+          <td class="d-flex justify-content-center"><button id="hapus" type="button" class="btn btn-danger">Hapus Antrian</button></td>
+        </tr>
+      </tbody>
+  `;
+  document.querySelector('#tes').innerHTML = datalist;
+  // document.getElementById('hapus').addEventListener('click', () => {
+  //   axios.delete(`http://localhost:3000/pasien/hapus?id=${data.id}`)
+  // })
+  });
   },
 };
 

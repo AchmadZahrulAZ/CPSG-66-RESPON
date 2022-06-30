@@ -1,4 +1,4 @@
-// Import Regenator
+0// Import Regenator
 import 'regenerator-runtime';
 // Import Bootsrap
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -10,7 +10,7 @@ import '../styles/responsive.css';
 import './components/side-bar';
 import './components/main-bar';
 import App from './views/app';
-import './views/script';
+// import './views/script';
 
 const app = new App({
   content: document.querySelector('#mainContent'),

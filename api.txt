@@ -1,0 +1,20 @@
+## API untuk Data Admin
+
+untuk tambah data
+https://respon-backend.vercel.app/user/add
+
+untuk edit data
+https://respon-backend.vercel.app/user/update?nama=${nama}&nik=${nik}&email=${email}&id=(angka)
+
+untuk delete
+https://respon-backend.vercel.app/user/delete?id=(angka)
+
+untuk cek data
+https://respon-backend.vercel.app/user/list
+
+
+## API untuk Data Pasien
+
+
+## API untuk Data Staff
+

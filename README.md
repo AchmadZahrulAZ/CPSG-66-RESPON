@@ -1,2 +1,1 @@
-# CPSG-66-RESPON
-Repository untuk Capstone Dicoding Kelompok CPSG-66
+Tampilan utama dari web RESPON

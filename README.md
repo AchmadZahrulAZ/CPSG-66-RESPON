@@ -5,19 +5,19 @@ Panduan untuk mengakses page pasien, staff, dan admin
 * Branch untuk page pasien
 
 ```sh
-[Page Pasien](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/001-page-pasien)
+[Page-Pasien](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/001-page-pasien)
 ```
 
 * Branch untuk page staff
 
 ```sh
-[Page Staff](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/002-page-staff)
+[Page-Staff](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/002-page-staff)
 ```
 
 * Branch untuk page admin
 
 ```sh
-[Page Admin](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/003-page-admin)
+[Page-Admin](https://github.com/AchmadZahrulAZ/CPSG-66-RESPON/tree/003-page-admin)
 ```
 
 ### Cara Menggunakan

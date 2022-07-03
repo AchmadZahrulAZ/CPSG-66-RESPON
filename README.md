@@ -1,5 +1,5 @@
 # CPSG-66-RESPON
-Tampilan dashboard staff dari web RESPON
+Halaman dashboard staff dari web RESPON
 
 ## Cara Menggunakan
 * Install semua packages yang ada di devDependencies dan dependencies pada package.json

@@ -1,5 +1,5 @@
 # CPSG-66-RESPON
-Tampilan pasien dari web RESPON
+Halaman pasien dari web RESPON
 
 ## Cara Menggunakan
 * Install semua packages yang ada di devDependencies dan dependencies pada package.json
